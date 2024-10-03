@@ -6,7 +6,6 @@ import { RiChromeFill, RiInformationFill } from "react-icons/ri";
 import { useState } from "react";
 
 import Table from "./components/Table/Table";
-import NewsLetter from "./components/NewsLetter/NewsLetter";
 import InfoTable from "./components/InfoTable/InfoTable";
 import Card from "./components/Card/Card";
 import Lantern from "./components/Lantern/Lantern";

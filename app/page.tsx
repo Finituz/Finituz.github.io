@@ -68,10 +68,11 @@ export default function Home() {
           <article>
             <p>
               At Finituz Game Studio, we believe in the power of collaboration
-              and transparency. That&pos;s why we proudly share our work through
-              our open-source GitHub repository. By making our code, assets, and
-              tools available to the public, we invite other developers to learn
-              from, contribute to, and build upon our projects.
+              and transparency. That&apos;s why we proudly share our work
+              through our open-source GitHub repository. By making our code,
+              assets, and tools available to the public, we invite other
+              developers to learn from, contribute to, and build upon our
+              projects.
             </p>
             Our GitHub repository features:
             <ul className="list-disc ml-20 my-5">
@@ -81,7 +82,7 @@ export default function Home() {
               </li>
               <li>
                 <strong>Development Tools:</strong> Access tools and utilities
-                we&pos;ve developed to streamline the game creation process.
+                we&apos;ve developed to streamline the game creation process.
               </li>
               <li>
                 <strong> Contributions: </strong> Engage with our community by
@@ -90,7 +91,7 @@ export default function Home() {
               </li>
             </ul>
             <p>
-              We&pos;re committed to fostering an open and collaborative
+              We&apos;re committed to fostering an open and collaborative
               environment where creativity and innovation can thrive. Join us on
               GitHub, and be part of our journey in shaping the future of indie
               games.
@@ -138,7 +139,7 @@ export default function Home() {
             VisualScript, and C#, and allows cross-platform exports to various
             devices. With a visual editor, strong 2D and 3D tools, and
             extensibility through plugins, Godot is known for its flexibility,
-            performance, and active community. It&pos;s free to use with no
+            performance, and active community. It&apos;s free to use with no
             royalties.
           </div>
         </InfoTable>
@@ -146,7 +147,7 @@ export default function Home() {
           iconSrc={pixelorama}
           href="https://orama-interactive.itch.io/pixelorama"
           reverse
-          iconAlt="Pixolorama&pos;s logo, an square with 3 colors blue ate left, light green at center and light red at right, with a bege square at the center with another dark red square at it center, representing an eye ."
+          iconAlt="Pixolorama's logo, an square with 3 colors blue ate left, light green at center and light red at right, with a bege square at the center with another dark red square at it center, representing an eye ."
           iconWidth={150}
         >
           <div>
@@ -176,7 +177,7 @@ export default function Home() {
           iconSrc={gimp}
           href="https://www.gimp.org/"
           reverse
-          iconAlt="GIMP&pos;s mascot - Wilber"
+          iconAlt="GIMP's mascot - Wilber"
           iconWidth={150}
         >
           <div>
@@ -196,7 +197,7 @@ export default function Home() {
           <Card title="3XRosso" imagePath={rossoImage} imageAlt="" />
         </div>
       </section>
-      <section>
+      <section id="extension">
         <h1 className="text-7xl text-center">Search for game discounts?</h1>
         <h2> Add our discount wishlist extension!</h2>
         <article
@@ -210,7 +211,7 @@ export default function Home() {
               limited time free games!
             </p>
           </div>
-          <a href="" target="_blank">
+          <a target="_blank">
             <Image
               src={extensionImage}
               className="extension-image rounded-lg border-2 border-white mb-5"
@@ -248,38 +249,38 @@ export default function Home() {
           <div>
             <article>
               <p className="mb-4">
-                Hi there! I&pos;m Douglas Guimarães, and I&pos;m thrilled to
+                Hi there! I&apos;m Douglas Guimarães, and I&pos;m thrilled to
                 introduce you to Finituz, our new indie game studio that
-                officially launched in 2024. At Finituz, we&pos;re passionate
-                about pushing the boundaries of game development, and we&pos;re
+                officially launched in 2024. At Finituz, we&apos;re passionate
+                about pushing the boundaries of game development, and we&apos;re
                 doing it with a suite of fantastic tools: Godot Engine, GIMP,
-                Pixelorama, and Blender. I can&pos;t wait to share more about
-                what we’re creating and how we&pos;re doing things a bit
+                Pixelorama, and Blender. I can&apos;t wait to share more about
+                what we’re creating and how we&apos;re doing things a bit
                 differently.
               </p>
               <p className="text-xl font-semibold mb-4">
                 Our Vision and Future
               </p>
               <p>
-                At Finituz, we&pos;re all about collaboration and innovation. By
-                using Godot, GIMP, Pixelorama, and Blender, we&pos;re not just
-                enhancing our own development process but also contributing to
-                the broader indie game community. We believe in pushing the
+                At Finituz, we&apos;re all about collaboration and innovation.
+                By using Godot, GIMP, Pixelorama, and Blender, we&apos;re not
+                just enhancing our own development process but also contributing
+                to the broader indie game community. We believe in pushing the
                 envelope of what indie games can achieve, and our team is
                 dedicated to exploring new ideas and technologies.
               </p>
               <p className="mb-4">
-                Looking ahead, we&pos;re excited about the possibilities that
+                Looking ahead, we&apos;re excited about the possibilities that
                 lie before us. Our commitment to these tools and our passion for
                 game development are driving us to create something truly
-                special. For everyone who&pos;s interested in indie gaming, we
+                special. For everyone who&apos;s interested in indie gaming, we
                 invite you to join us on this journey.
               </p>
 
               <p className="text-xl font-semibold mb-4">Stay Connected</p>
               <p className="mb-4">
                 To keep up with our latest news, updates, and behind-the-scenes
-                glimpses, be sure to subscribe to our newsletter. And don&pos;t
+                glimpses, be sure to subscribe to our newsletter. And don&apos;t
                 miss out on the conversation—follow us on Discord, Reddit, and
                 LinkedIn to engage with our community and be part of our
                 exciting adventure.

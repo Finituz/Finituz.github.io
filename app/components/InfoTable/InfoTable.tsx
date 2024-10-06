@@ -19,21 +19,23 @@ export default function InfoTable({
 }) {
   const reverseClass = reverse ? "lg:flex-row-reverse" : "lg:flex-row";
   return (
-    <a
-      href={href}
-      target="_blank"
+    <div
       className={
-        "flex flex-col z-10 w-fit cursor-pointer items-center lg:justify-between " +
-        reverseClass
+        `flex md:flex flex-col infotable z-10
+          cursor-pointer w-[90vw] items-center
+          lg:justify-between ` + reverseClass
       }
     >
-      <Image
-        className="lg:mb-0 mb-10 hover:scale-110 transition-transform duration-300"
-        src={iconSrc}
-        alt={iconAlt}
-        width={iconWidth}
-      />
+      <a href={href} target="_blank">
+        <Image
+          className="lg:mb-0 mb-10 hover:scale-110 
+                      transition-transform duration-300"
+          src={iconSrc}
+          alt={iconAlt}
+          width={iconWidth}
+        />
+      </a>
       <Table>{children}</Table>
-    </a>
+    </div>
   );
 }

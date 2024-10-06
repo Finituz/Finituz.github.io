@@ -117,6 +117,7 @@ section {
     transform: perspective(3000px) rotateY(5deg);
   }
 }
+
 /* SCROOLBAR STYLE  */
 /* width */
 ::-webkit-scrollbar {

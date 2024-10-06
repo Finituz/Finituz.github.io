@@ -22,6 +22,7 @@ import rossoImage from "@/public/imgs/games/3xrosso.png";
 import extensionImage from "@/public/imgs/extension.png";
 
 import douglas from "@/public/imgs/team/douglas_guimaraes.png";
+import Slide from "./components/Slide/Slide";
 
 export default function Home() {
   const [startGame, setStartGame] = useState(false);
@@ -121,75 +122,79 @@ export default function Home() {
           </span>
           &#8287; to use!
         </h1>
+
         <Table className="lg:w-fit">
           <div className="flex gap-5 md:w-fit">
             <RiInformationFill className="text-4xl animate-pulse text-orange-400 duration-500" />
             Tip: click on their icon and support those awesome projects too!!!
           </div>
         </Table>
-        <InfoTable
-          iconSrc={godot}
-          href="https://godotengine.org/"
-          iconAlt="A blue robot with detail ."
-          iconWidth={150}
-        >
-          <div>
-            Godot is an open-source game engine for 2D and 3D game development.
-            It features a node-based scene system, supports GDScript,
-            VisualScript, and C#, and allows cross-platform exports to various
-            devices. With a visual editor, strong 2D and 3D tools, and
-            extensibility through plugins, Godot is known for its flexibility,
-            performance, and active community. It&apos;s free to use with no
-            royalties.
-          </div>
-        </InfoTable>
-        <InfoTable
-          iconSrc={pixelorama}
-          href="https://orama-interactive.itch.io/pixelorama"
-          reverse
-          iconAlt="Pixolorama's logo, an square with 3 colors blue ate left, light green at center and light red at right, with a bege square at the center with another dark red square at it center, representing an eye ."
-          iconWidth={150}
-        >
-          <div>
-            Pixolorama is an open-source 2D game engine optimized for pixel art
-            games. It features a user-friendly visual editor, supports scripting
-            with GDScript, and allows for cross-platform exports. Designed for
-            simplicity and accessibility, it is ideal for indie developers
-            working on pixel-based games.
-          </div>
-        </InfoTable>
-        <InfoTable
-          href="https://www.blender.org/"
-          iconSrc={blender}
-          iconAlt="A blue robot."
-          iconWidth={150}
-        >
-          <div>
-            Blender is a free, open-source 3D creation suite that offers
-            powerful tools for modeling, animation, rendering, sculpting,
-            texturing, and video editing. It includes advanced features for
-            simulations and scripting, and is available on Linux, macOS, and
-            Windows. Blender is renowned for its versatility and strong
-            community support.
-          </div>
-        </InfoTable>
-        <InfoTable
-          iconSrc={gimp}
-          href="https://www.gimp.org/"
-          reverse
-          iconAlt="GIMP's mascot - Wilber"
-          iconWidth={150}
-        >
-          <div>
-            GIMP, which stands for GNU Image Manipulation Program, is a free and
-            open-source graphics editor used for tasks such as photo retouching,
-            image composition, and image authoring. It&asp;s often compared to
-            Adobe Photoshop due to its similar capabilities, including layers,
-            filters, and various editing tools. GIMP supports a wide range of
-            file formats and is popular among both amateur and professional
-            graphic designers for its powerful features and customizability.
-          </div>
-        </InfoTable>
+        <Slide id="tecnologies-wrapper">
+          <InfoTable
+            iconSrc={godot}
+            href="https://godotengine.org/"
+            iconAlt="A blue robot with detail ."
+            iconWidth={150}
+          >
+            <div>
+              Godot is an open-source game engine for 2D and 3D game
+              development. It features a node-based scene system, supports
+              GDScript, VisualScript, and C#, and allows cross-platform exports
+              to various devices. With a visual editor, strong 2D and 3D tools,
+              and extensibility through plugins, Godot is known for its
+              flexibility, performance, and active community. It&apos;s free to
+              use with no royalties.
+            </div>
+          </InfoTable>
+          <InfoTable
+            iconSrc={pixelorama}
+            href="https://orama-interactive.itch.io/pixelorama"
+            reverse
+            iconAlt="Pixolorama's logo, an square with 3 colors blue ate left, light green at center and light red at right, with a bege square at the center with another dark red square at it center, representing an eye ."
+            iconWidth={150}
+          >
+            <div>
+              Pixolorama is an open-source 2D game engine optimized for pixel
+              art games. It features a user-friendly visual editor, supports
+              scripting with GDScript, and allows for cross-platform exports.
+              Designed for simplicity and accessibility, it is ideal for indie
+              developers working on pixel-based games.
+            </div>
+          </InfoTable>
+          <InfoTable
+            href="https://www.blender.org/"
+            iconSrc={blender}
+            iconAlt="A blue robot."
+            iconWidth={150}
+          >
+            <div>
+              Blender is a free, open-source 3D creation suite that offers
+              powerful tools for modeling, animation, rendering, sculpting,
+              texturing, and video editing. It includes advanced features for
+              simulations and scripting, and is available on Linux, macOS, and
+              Windows. Blender is renowned for its versatility and strong
+              community support.
+            </div>
+          </InfoTable>
+          <InfoTable
+            iconSrc={gimp}
+            href="https://www.gimp.org/"
+            reverse
+            iconAlt="GIMP's mascot - Wilber"
+            iconWidth={150}
+          >
+            <div>
+              GIMP, which stands for GNU Image Manipulation Program, is a free
+              and open-source graphics editor used for tasks such as photo
+              retouching, image composition, and image authoring. It&asp;s often
+              compared to Adobe Photoshop due to its similar capabilities,
+              including layers, filters, and various editing tools. GIMP
+              supports a wide range of file formats and is popular among both
+              amateur and professional graphic designers for its powerful
+              features and customizability.
+            </div>
+          </InfoTable>
+        </Slide>
       </section>
       <section id="games">
         <h1 className="text-7xl my-10">Our games!</h1>
@@ -201,8 +206,8 @@ export default function Home() {
         <h1 className="text-7xl text-center">Search for game discounts?</h1>
         <h2> Add our discount wishlist extension!</h2>
         <article
-          className="flex flex-col-reverse md:flex-row mt-20
-          justify-between items-center w-full h-full md:p-36 lg:px-72"
+          className="flex flex-col-reverse lg:flex-row mt-20
+          justify-between items-center w-full h-full lg:py-36 lg:px-72"
         >
           <div className="w-3/4 md:w-2/5 text-justify">
             <p>

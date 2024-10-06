@@ -19,7 +19,7 @@ export default function Header() {
   };
   return (
     <>
-      <header className="absolute z-[15] bg-red-900 flex justify-between top-2 left-2 right-2 h-fit p-4 rounded-xl border border-white">
+      <header className="absolute z-[15] bg-red-900 flex justify-between top-2 left-2 right-2 h-fit p-2 rounded-xl border border-white">
         <a href="#home" className="flex gap-2 justify-center items-center">
           <Image src={Logo} width={32} height={32} alt="Finituz's logo" />
           <strong>Finituz</strong>

@@ -42,7 +42,7 @@ export default function Slide({
     <div className="flex relative w-full">
       <button
         onClick={() => changeSlide(true)}
-        className="absolute text-7xl md:hidden left-20 top-16 hover:scale-x-120 z-50"
+        className="absolute text-7xl md:hidden left-16 top-16 hover:scale-x-120 z-50"
       >
         {"<"}
       </button>
@@ -54,7 +54,7 @@ export default function Slide({
       </span>
       <button
         onClick={() => changeSlide()}
-        className="absolute text-7xl md:hidden right-20 top-16 hover:scale-x-120 z-50"
+        className="absolute text-7xl md:hidden right-16 top-16 hover:scale-x-120 z-50"
       >
         {">"}
       </button>
